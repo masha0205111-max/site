@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocks</title>
+    <link rel="stylesheet" href="css/blocks.css">
+    <style>
+        body{
+    background-color: aqua;
+}
+p{
+    background-color: blue;
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+    }
+    img{
+        width: 25%;
+        display: block;
+        margin: auto;
+    }
+    span{
+        border: 2px dotted red;
+        font-style: italic;
+           }
+    ul{
+        list-style: none;
+       
+    }
+    ul li{
+        width: 120px;
+        margin-top: 10px;
+         display:inline-block;
+         border: dashed purple 5px;
+         padding:5px 10px ;
+         font-size: 24px;
+         background-color: lemonchiffon;
+         color: blueviolet;
+         text-align: center;
+    }
+    ul li:hover{
+        background-color: blueviolet;
+        color: lemonchiffon;
+    }
+    a{
+        text-decoration: none;
+    }
+    #first{
+        font-size: 50px;
+        border: 10px double pink;
+        width: 500px;
+        height: 500px;
+        background-color: aquamarine;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #second{
+        width: 500px;
+        height: 900px;
+        border-width: 24px;
+        border-style: dashed dotted;
+        border-color: blue yellow red green;
+        border-radius:  20% 10%;
+    }
+    #third, #fourth{
+        width: 800px;
+        height: 200px;
+        background-color: coral;
+        border: 10px solid khaki;
+        margin: 50px;
+        padding: 50px;
+    }
+    #fourth{
+        background-color: blueviolet;
+        border-color: deeppink;
+    }
+    </style>
+</head>
+<body>
+    <p>Ми вивчаємо роботу з блоками</p>
+    <p>Ми вивчаємо роботу з блоками</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>saepe doloribus</span> , illum aliquam sit, culpa in ad numquam odit, <span>explicabo fugiat architecto</span> voluptate. Vel laudantium delectus fugit, aperiam repudiandae vitae?</p>
+    <img src="https://anelok.com.ua/wp-content/uploads/2025/02/Bloky-Dienesha-Anelok.jpg" alt="блоки">
+    <ul>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"><li>Example</li></a>
+        <li>Example</li>
+        <li>Example</li>
+        <li>Example</li>
+    </ul>
+    <div id="first">
+        Привіт! <br> Я, перший блок!
+    </div>
+    <div id="second">
+        <div id="third"></div>
+        <div id="fourth"></div>
+    </div>
+</body>
+</html>
